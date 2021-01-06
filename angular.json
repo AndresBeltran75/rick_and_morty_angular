@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "its-punto-dos"
+    }
+  },
+  "defaultProject": "its-punto-dos",
+  "cli": {
+    "analytics": "98632843-a12e-4a15-8f47-534c249d8bd7"
+  }
 }

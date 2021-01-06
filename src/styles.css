@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background: rgb(36, 40, 47);
+    color: white;
+    font-family: Helvetica;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 70px;
+}

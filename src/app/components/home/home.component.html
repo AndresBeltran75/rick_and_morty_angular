@@ -1,0 +1,14 @@
+<h1 class="titulo">The Rick and Morty API</h1>
+
+<br>
+
+<div class="grid-container">
+    <div class="grid-item" *ngFor="let personaje of response">
+        <img src="{{ personaje.image }}" alt="{{ personaje.id }}" class="imagenes">
+        <div>
+            <small> {{ personaje.name }} </small>
+            <br>
+            <small> {{ personaje.species }} </small>
+        </div>
+    </div>
+</div>
